@@ -1,0 +1,22 @@
+<html>
+  <head>
+  <script src="http://code.jquery.com/jquery-latest.js">
+  </script>
+  <script>
+    $(document).ready(function() {
+      $("button").click(function() {
+        $("img").filter(":odd").slideUp("slow");
+      }); 
+    });
+  </script>		  
+  </head>
+  <body>	
+    <button>Спрячь слабое звено!</button><br><br>
+      <img src="Images/Dollar.jpg" width="100" height="70" title="Доллары США"><br><br>
+      <img src="Images/Byn.jpg" width="100" height="70" title="Белорусские рубли"><br><br>
+      <img src="Images/Euro.jpg" width="100" height="70" title="Евро"><br><br>
+      <img src="Images/Ruble.jpg" width="100" height="70" title="Российские рубли"><br><br> 	 
+      <img src="Images/Pound.jpg" width="100" height="70" title="Фунты стерлингов"><br><br>
+      <img src="Images/Tenge.jpg" width="100" height="70" title="Казахстанский тенге"><br><br>
+  </body>
+</html>
